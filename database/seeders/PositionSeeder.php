@@ -15,19 +15,19 @@ class PositionSeeder extends Seeder
     {
         DB::table('positions')->insert([
             [
-                'code' => 'IS',
-                'name' => 'Ilham Setiawan',
-                'description' => 'Mahasiswa'
+                'code' => 'FE',
+                'name' => 'Front End Developer',
+                'description' => 'Front End Developer'
             ],
             [
-                'code' => 'LM',
-                'name' => 'Lionel Messi',
-                'description' => 'GOAT'
+                'code' => 'BE',
+                'name' => 'Back End Developer',
+                'description' => 'Back End Developer'
             ],
             [
-                'code' => 'MM',
-                'name' => 'Marc Marquez',
-                'description' => 'GOAT MOTOGP'
+                'code' => 'SA',
+                'name' => 'System Analist',
+                'description' => 'System Analist'
             ],
         ]);
     }
